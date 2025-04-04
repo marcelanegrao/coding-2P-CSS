@@ -1,0 +1,23 @@
+body {
+    background-color:#f5e8be; /* Off-white */
+    font-family: FreeMono, monospace;
+    text-align: center;
+}
+img{
+    border-radius: 30%;
+}
+p{
+    font-size: 20px;
+  }
+iframe{
+    border: 3px solid black;
+    height: 400px;
+    width: 800px;
+    border-radius: 15px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+    padding: 3%;
+}
