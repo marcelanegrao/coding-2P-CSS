@@ -23,7 +23,7 @@ iframe{
     border-radius: 15px;
 
 }
-menu {
+a:link {
     text-decoration: none;
     background: black;
     font-size: 150%;
