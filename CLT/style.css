@@ -23,12 +23,12 @@ iframe{
     border-radius: 15px;
 
 }
-.abc {
+menu {
     text-decoration: none;
     background: black;
     font-size: 150%;
     padding: 1%;
-    -webkit-background-clip: text;
+    -webkit-background-clip: text;  
     -webkit-text-fill-color: transparent;
     margin: 0px 30px 0px 20px;
 }
