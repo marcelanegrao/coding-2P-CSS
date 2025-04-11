@@ -1,8 +1,12 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
 body {
     font-family: FreeMono, monospace;
     text-align: center;
-    background: #100024;
-    background: linear-gradient(90deg,rgba(16, 0, 36, 1) 0%, rgba(140, 0, 255, 1) 100%);
+    background: #fffcfc;
+    background: linear-gradient(180deg, rgb(255, 239, 204) 0%, rgb(252, 219, 130) 100%);
 }
 
 img{
@@ -19,10 +23,13 @@ iframe{
     border-radius: 15px;
 
 }
-.menu a{
+.abc {
     text-decoration: none;
-    color: black;
+    background: black;
     font-size: 150%;
-    padding: 3%;
+    padding: 1%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px 30px 0px 20px;
 }
 
