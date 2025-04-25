@@ -1,35 +1,47 @@
 html, body {
     height: 100%;
     margin: 0;
-  }
-body {
-    font-family: FreeMono, monospace;
-    text-align: center;
-    background: #fffcfc;
-    background: linear-gradient(180deg, rgb(255, 239, 204) 0%, rgb(252, 219, 130) 100%);
+    font-family: 'Poppins';
 }
 
-img{
+body {
+    color: #fff; 
+    text-align: center;
+    background: linear-gradient(180deg, rgb(49, 30, 119) 0%, rgb(0, 0, 0) 100%);
+}
+
+img {
     border-radius: 30%;
 }
-p{
+
+p {
     font-size: 20px;
 }
 
-iframe{
-    border: 3px solid black;
+iframe {
+    border: 3px solid rgb(255, 255, 255);
     height: 400px;
     width: 800px;
     border-radius: 15px;
-
 }
-a:link {
+
+nav a {
     text-decoration: none;
-    background: black;
     font-size: 150%;
     padding: 1%;
-    -webkit-background-clip: text;  
+    background: rgb(255, 255, 255);
+    color: transparent;
+    background-clip: text;  
     -webkit-text-fill-color: transparent;
-    margin: 0px 30px 0px 20px;
+    margin: 0 30px 0 20px;
 }
 
+footer {
+    background-color: #000000;
+    color: #8b2b2b;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
