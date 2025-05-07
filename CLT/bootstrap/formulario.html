@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Formulário de Contato - Marcela Negrão</title>
+</head>
+<body>
+  <center>
+    <h1>Formulário de Contato</h1>
+    <form action="#" method="post" enctype="multipart/form-data">
+      <fieldset style="width: 70%; text-align: left;">
+        <legend>Contato</legend>
+
+        <label>Nome:</label><br />
+        <input type="text" name="nome" required /><br /><br />
+
+        <label>Sobrenome:</label><br />
+        <input type="text" name="sobrenome" required /><br /><br />
+
+        <label>Telefone:</label><br />
+        <input type="tel" name="telefone" placeholder="(xx) xxxxx-xxxx" required /><br /><br />
+
+        <label>E-mail:</label><br />
+        <input type="email" name="email" required /><br /><br />
+
+        <label>Mensagem:</label><br />
+        <textarea name="mensagem" rows="4" cols="50" required></textarea><br /><br />
+
+        <label>Língua aplicada no serviço:</label><br />
+        <select name="idioma" required>
+          <option>Inglês</option>
+          <option>Espanhol</option>
+          <option>Francês</option>
+          <option>Português (pt-br)</option>
+        </select><br /><br />
+
+        <label>Upload de protótipo (PDF, DOC, DOCX, JPEG ou PNG):</label><br />
+        <input type="file" name="arquivo" accept=".pdf, .doc, .docx, .jpeg, .jpg, .png" /><br /><br />
+
+        <label>Linguagens preferidas:</label><br />
+        <select name="linguagens" multiple size="4">
+          <option>HTML</option>
+          <option>CSS</option>
+          <option>JavaScript</option>
+          <option>Python</option>
+        </select><br /><br />
+
+        <label>Banco de dados recomendado:</label><br />
+        <input type="radio" name="banco" value="MySQL" /> MySQL<br />
+        <input type="radio" name="banco" value="PostgreSQL" /> PostgreSQL<br />
+        <input type="radio" name="banco" value="MongoDB" /> MongoDB<br /><br />
+
+        <label>Turno de preferência:</label><br />
+        <select name="turno">
+          <option>Manhã</option>
+          <option>Tarde</option>
+          <option>Noite</option>
+        </select><br /><br />
+
+        <label>Melhor horário para reuniões:</label><br />
+        <input type="time" name="horario" /><br /><br />
+
+        <label>Previsão de entrega desejada:</label><br />
+        <input type="date" name="data_entrega" /><br /><br />
+
+        <input type="reset" value="Limpar" />
+        <input type="submit" value="Enviar" />
+      </fieldset>
+    </form>
+  </center>
+</body>
+</html>
